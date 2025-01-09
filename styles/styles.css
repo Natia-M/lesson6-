@@ -1,0 +1,26 @@
+/*general styles*/
+div {
+  width: 300px;
+  display: inline-block;
+}
+img {
+  max-width: 463px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*header styles*/
+header {
+  background: #0033ff;
+  height: 208px;
+}
+a {
+  color: white;
+  text-decoration-line: none;
+}
+/*article styles*/
+
+.first-window p {
+  background-color: white;
+}
