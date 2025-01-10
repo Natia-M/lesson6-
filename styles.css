@@ -43,7 +43,7 @@ h1 {
 .box {
   text-align: center;
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 270px;
   margin-right: 15px;
   border-radius: 15px;
@@ -57,9 +57,10 @@ img {
 .box-above {
   text-align: center;
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 270px;
   border-radius: 15px;
+  margin-left: 15px;
   margin-right: 15px;
   margin-top: -40px;
 }
@@ -67,6 +68,7 @@ h2 {
   float: right;
   margin-top: 60px;
   margin-right: 200px;
+  margin-bottom: 20px;
 }
 .text-bottom {
   text-align: left;
@@ -79,4 +81,36 @@ h2 {
   color: black;
   margin-left: 15px;
   padding: 10px;
+  opacity: 80%;
+}
+.square {
+  background-color: lightgrey;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.second-square {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.articles {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: inline-block;
+  font-size: 15px;
+  width: 300px;
+}
+
+.first-header {
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.first-H {
+  margin-bottom: 40px;
 }
